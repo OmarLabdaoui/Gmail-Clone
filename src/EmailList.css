@@ -1,0 +1,26 @@
+.EmailList{
+    flex: 1;
+    
+}
+
+.Emaillist__icon{
+    display:flex;
+    justify-content:space-between;
+    position: sticky;
+    top: 0;
+    background-color:1px solid whitesmoke;
+    z-index: 999;
+}
+.Email__section{
+    display:flex;
+    align-items:center;
+    position:sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+    border: 1px solid whitesmoke;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}

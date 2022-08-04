@@ -1,0 +1,55 @@
+.SendMessage{
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    width:40%;
+    background-color:#404040;
+    height: 70%;
+    max-width: 500px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
+}
+.close{
+    cursor: pointer;
+}
+.SendMessage__header{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+}
+.SendMessage__header>h3{
+font-size: 13px;
+color: whitesmoke
+}
+.sendmessagebutton{
+   
+    text-transform: capitalize !important;
+    margin: 15px !important;
+}
+.SendMessage>form{
+    display:flex;
+    flex: 1;
+    flex-direction:column;
+}
+.SendMessage>form>input{
+    height: 30px;
+    padding:10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid whitesmoke;
+}
+.inputt{
+    flex: 1;
+}
+.errors_message{
+    color:red;
+    text-align:right;
+    background-color:white;
+
+}

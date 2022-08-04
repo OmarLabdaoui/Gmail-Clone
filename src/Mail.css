@@ -1,0 +1,48 @@
+.Mail{
+   flex: 1;
+   background-color:whitesmoke
+    
+}
+
+.Mail__Tools{
+    display: flex;
+    justify-content:space-between;
+    background-color: white;
+}
+.Mail__body{
+    display: flex;
+    background-color: white;
+    height: 100vh;
+    padding: 20px;
+    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
+    flex-direction: column;
+    margin: 30px;
+}
+
+.Mail__bodyheader{
+display:flex;
+align-items: center;
+padding:20px;
+position: relative;
+border-bottom: 1px solid whitesmoke;
+}
+.Mail__time{
+    position: absolute;
+    top:24px;
+    right:0;
+    color: gray;
+    font-size: 12px;
+}
+.Mail__bodyheader>h2{
+    font-weight: 400;
+    margin-right: 20px;
+}
+.Mail__icon{
+    color: #e8ab02 !important;
+}
+.Mail__bodyheader>p{
+    padding:10px;
+    overflow: break-word;
+    margin-right: 20px;
+    margin-left: 20px;
+}
